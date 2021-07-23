@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-    nums := []int{1, 2, 3, 4, 5, 6}
+    nums := [6]int{1, 2, 3, 4, 5, 6}
     average(nums...)
 }
 
-func average(nums ...int) {
+func average(nums [6]int) {
 
     sum := 0
     for _, num := range nums {
