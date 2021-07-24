@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
     nums := [6]int{1, 2, 3, 4, 5, 6}
-    average(nums...)
+    average(nums)
 }
 
 func average(nums [6]int) {
